@@ -1,0 +1,10 @@
+let nombre = "Julian";
+        let edad = 34;
+        let estatura = 1.6;
+        let casado = true;
+        document.writeln(nombre);
+        document.writeln(edad);
+        let profesion = prompt("Ingresa tu profesión");
+        alert("Tu profesión es: "+ profesion);
+        let nom = document.getElementById("t1");
+        document.getElementById("t1").innerHTML = nombre;
